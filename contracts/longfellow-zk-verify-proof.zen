@@ -1,8 +1,5 @@
-Prepare: manipulate and set with object 'zencode_data', path 'sd_path', value 'sd'
-Prepare: manipulate and set with object 'zencode_data', path 'now_path', value 'now'
-Prepare: manipulate and set with object 'zencode_data', path 'transcript_path', value 'transcript'
-Prepare: manipulate and set with object 'zencode_data', path 'public_key_path', value 'public_key'
-Prepare: manipulate and set with object 'zencode_data', path 'document_path', value 'document'
+Prepare: manipulate and set with object 'zencode_data', path 'parameters_path', value 'parameters'
+Prepare: manipulate and set with object 'zencode_data', path 'proof_path', value 'proof'
 
 Prepare: store in file with content 'zencode_data', path 'data_path'
 
