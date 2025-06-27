@@ -1,0 +1,9 @@
+Scenario longfellow
+Given I have a 'proof'
+and I have a 'circuit'
+and I have a 'hex' named 'transcript' in 'parameters'
+and I have a 'hex' named 'public key' in 'parameters'
+and I have a 'string' named 'now' in 'parameters'
+and I have 'attributes' named 'sd' in 'parameters'
+When I verify the proof of attributes 'sd' in proof 'proof'
+Then print string 'ALL OK'
