@@ -1,0 +1,4 @@
+Scenario longfellow
+Given nothing
+When I create the circuit id '1'
+Then print the 'circuit'

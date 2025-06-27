@@ -1,0 +1,6 @@
+Prepare 'zencode_output': execute in shell with command 'zencode_command'
+
+Given I have a 'string' named 'zencode_output'
+When I create json unescaped object of 'zencode_output'
+When I rename 'json unescaped object' to 'result'
+Then print the 'result'
