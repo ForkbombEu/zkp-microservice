@@ -1,0 +1,10 @@
+{
+    "zencode_data": {},
+    "sd_path": "sd",
+    "now_path": "now",
+    "transcript_path": "transcript",
+    "public_key_path": "public_key",
+    "document_path": "document",
+    "data_path": "longfellow-generate-proof.data.json",
+    "zencode_command": "./zenroom -z -a longfellow-generate-proof.data.json -k longfellow_circuit_1.json longfellow-generate-proof.zencode"
+}
