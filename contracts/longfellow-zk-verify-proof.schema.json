@@ -1,0 +1,20 @@
+{
+    "type": "object",
+    "properties": {
+        "sd": {
+            "type": "array"
+        },
+        "now": {
+            "type": "string"
+        },
+        "transcript": {
+            "type": "string"
+        },
+        "public_key": {
+            "type": "string"
+        },
+        "document": {
+            "type": "string"
+        }
+    }
+}

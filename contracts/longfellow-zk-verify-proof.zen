@@ -1,0 +1,14 @@
+Prepare: manipulate and set with object 'zencode_data', path 'sd_path', value 'sd'
+Prepare: manipulate and set with object 'zencode_data', path 'now_path', value 'now'
+Prepare: manipulate and set with object 'zencode_data', path 'transcript_path', value 'transcript'
+Prepare: manipulate and set with object 'zencode_data', path 'public_key_path', value 'public_key'
+Prepare: manipulate and set with object 'zencode_data', path 'document_path', value 'document'
+
+Prepare: store in file with content 'zencode_data', path 'data_path'
+
+Prepare 'zencode_output': execute in shell with command 'zencode_command'
+
+Given I have a 'string' named 'zencode_output'
+When I create json unescaped object of 'zencode_output'
+When I rename 'json unescaped object' to 'result'
+Then print the 'result'
