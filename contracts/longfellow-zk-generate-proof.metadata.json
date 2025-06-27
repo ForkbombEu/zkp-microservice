@@ -1,4 +1,7 @@
 {
+    "tags": [
+        "🔐 longfellow-zk"
+    ],
     "examples": {
         "example_one": {
             "summary": "Sample valid values",
