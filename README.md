@@ -14,7 +14,7 @@
 
 ## ✨ Zkp microservice features <!-- omit in toc -->
 
-Entirly written in [zencode](https://dev.zenroom.org) and hosted with [ncr](https://github.com/forkbomb/ncr).
+Entirly written in [zencode](https://dev.zenroom.org) and hosted with [ncr](https://github.com/forkbombEu/ncr).
 
 ***
 
