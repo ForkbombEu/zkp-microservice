@@ -1,0 +1,15 @@
+{
+    "title": "ZKP REST microservice: Longfellow and BBS",
+    "version": "1.0.0",
+    "description": "## Features\n\nThis is a demo to create and verify longfellow/bbs proofs. The REST APIs are powered by [Zenroom](https://zenroom.org), the same code runs on mobile, and in the browser. The microservices can be extended in Zencode, see the playground [Apiroom](https://apiroom.net). The microservices and the underlying components are **open source**. This instance offers:\n\n- Longfellow-zk: circuit generation, proof generation, verification\n\n- BBS: credential issuance, proof generation, verification\n\n## REST APIs\n\n### Longfellow-zk\n\nClick on *🔐 longfellow-zk* and then click on *generate-proof* to create a proof and *verify-proof* to verify it.\n\n### BBS\n\nClick on *🪪 bbs* and then on *sign-credential* to issue a credential, then *generate-proof* to generate a proof and finally on *verify-proof' to verify it.\n\n## Zencode Applets\n\nClick on *📱 Zencode applets*, then on any on the links in the sub-menu, and on   ***👉 Click here to open the applet***   inside the page, to open an auto-generated GUI, offering the same functionality of the corresponding API.\n\n## Tech stack, repos and playground\n\n- Cryptography and business logic executed by [Zenroom](https://zenroom.org) and [Slangroom](https://dyne.org/slangroom/) and implemented in [Zencode](https://dev.zenroom.org/#/pages/zencode-intro?id=smart-contracts-in-human-language)\n\n- REST APIs and Applets provided by [noˑcodeˑroom](https://github.com/ForkbombEu/ncr)\n\n- This instance was generated using: [zkp-microservice](https://github.com/forkbombeu/zkp-microservice)\n\n- Zenroom's online playground [Apiroom](https://apiroom.net)",
+    "termsOfService": "https://forkbomb.solutions/privacy-policy/",
+    "contact": {
+        "email": "info@forkbomb.eu",
+        "name": "Forkbomb BV",
+        "url": "https://forkbomb.solutions"
+    },
+    "license": {
+        "name": "GNU Affero General Public License v3.0 or later",
+        "url": "https://www.gnu.org/licenses/agpl-3.0"
+    }
+}
