@@ -1,0 +1,23 @@
+{
+    "type": "object",
+    "properties": {
+        "bbs_shake_signature": {
+            "type": "string"
+        },
+        "bbs_signature": {
+            "type": "string"
+        },
+        "bbs_messages": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "bbs_disclosed_indexes": {
+            "type": "array",
+            "items": {
+                "type": "number"
+            }
+        }
+    }
+}

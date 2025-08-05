@@ -1,0 +1,23 @@
+{
+    "tags": [
+        "🪪 bbs"
+    ],
+    "examples": {
+        "example_one": {
+            "summary": "Sample valid values",
+            "value": {
+                "bbs_disclosed_indexes": [
+                    1,
+                    3
+                ],
+                "bbs_disclosed_messages": [
+                    "above 18",
+                    "professor"
+                ],
+                "bbs_presentation_header": "CKJG6F/iLfAY8n9CN2Bn/RGgVNQ5GFOiAdG9HdPkaJ0=",
+                "bbs_proof": "mf6evGLbAbuWcnLd8TPWtvSG+gk98JtUT5C7jIWmekD20ADF8ZjODrnDyYloKntUs+FzeFQeKO6Qh2KJTYe2w/PEyjmpyF94HKmZCLB+FcWmuN/z8Bk4GeQS6f6zoA2Hhsywk/z3C9t/ND1Katsfdn8NFl8BdZeSYh5s1Vf26xXnnCM/BcP9UDyWaVnxasXdbPMuBuenyEP7VMRk6jSqPzc4krHOY3YHJc+CtbnhMb5KBSfY1NmDnza9lFlykeFRMDhRePPSTKnG79l9Q/H8IxpeFf83DFa9bLz5vwqi3TySjTBJdrMBLTMWX7904Mq8BVA+UTLE5aawkHl1SaHYsoeiapE9q7N48wrwD85GPisA13MPjild07mkFG854AkeaG/SxuJTf8fFdaW0d3zYcA==",
+                "bbs_shake_proof": "o63urCF0LtYkYBLyWBsD/+FdTt+lEf/EydFVuRN1zeHNKOnYF1CjhQdvrN8uphv7h6TUt8E7kddZeSsHY4TZrKJ4dYLM/wftsmsgUWH9hq0m+EiHvFa10NKJEDjaSTmApqBUjlEPpeNeEbVCf4VuUCL0vEPQyjgV+uu5kCkoQSMKILiRcIV+iqiEfanrqy3IVQbsGui43eXxbDjsxc8G4Jk+1+p7SD8C8VU5phlvdbsgee9FeM6VabjboviuwO2p2jq0HEqRdePRSYAZWtKR127Y4t13o9Be8fH+oLcP17wSZXNM0il6S8o84VJmbgTdLVSpeCueWQVChVo80jtWgeJZNo6iMDexPSOzvTp3zvFEln3B5m7+kEWqxseVsLb25qcjMIAkcFAQRdZvqIc1Ow=="
+            }
+        }
+    }
+}

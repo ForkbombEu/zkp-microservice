@@ -1,0 +1,23 @@
+{
+    "tags": [
+        "🪪 bbs"
+    ],
+    "examples": {
+        "example_one": {
+            "summary": "Sample valid values",
+            "value": {
+                "bbs_shake_signature": "oFdKw6E9fSmvJp9GAhp/TUcoZchrwN1GgADOIo0RMPtjjZ+AoHGJzos2rMdkFAczPHcs2UPlr+hqYyEf/8d95eFBCd6Vv6hCotj7cT7X8+Y=",
+                "bbs_signature": "kSzDHsxyb3O2QB1qTI0wJsffHXhDYeZbjQeCqlBsM9NRN/dx4z8qWoXOZyTGTfI+RGLDESO9q5shi08azxxNqRPI79veTjTXFbE3E+pjlGg=",
+                "bbs_messages": [
+                    "above 18",
+                    "italian",
+                    "professor"
+                ],
+                "bbs_disclosed_indexes": [
+                    1,
+                    3
+                ]
+            }
+        }
+    }
+}

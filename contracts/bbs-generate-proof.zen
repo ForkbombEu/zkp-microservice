@@ -1,0 +1,50 @@
+Scenario 'bbs': participant generates the bbs proofs
+
+# First we load both the Issuer's public keys
+Given I have a 'bbs public key' inside 'The Authority'
+Given I have a 'bbs shake public key' inside 'The Authority'
+
+# The BBS credential is the signature of the BBS messages done by the Authority.
+Given I have a 'bbs_signature'
+Given I have a 'bbs_shake_signature'
+
+# You can load the messages with any array type (hex array. base64 array)
+Given I have a 'string array' named 'bbs messages'
+
+
+# The disclosed indexes are strictly positive numbers in ascending order.
+# They specify what messages will be disclosed in the proof.
+# The participant can also decide NOT to disclose any message by leaving the array EMPTY.
+Given I have a 'number array' named 'bbs disclosed indexes'
+
+# The presentation header is used to mitigate different attacks, or it can be 
+# used a side channel.
+# It is higly recommended to change it for each proof the participants creates.
+When I create the random of '256' bits 
+When I rename the 'random' to 'bbs presentation header'
+
+# The disclosed messages are the messages which correspond to the disclosed indexes.
+When I create the bbs disclosed messages
+
+# Again we create a proof for both 'sha-256' or 'shake-256' signature:
+# First for the 'shake-256'
+When I create the bbs shake proof of the signature 'bbs_shake_signature' of the messages 'bbs messages' with public key 'bbs shake public key' presentation header 'bbs presentation header' and disclosed indexes 'bbs disclosed indexes'
+
+# Then for the 'sha-256'
+When I create the bbs proof of the signature 'bbs_signature' of the messages 'bbs messages' with public key 'bbs public key' presentation header 'bbs presentation header' and disclosed indexes 'bbs disclosed indexes'
+
+# Here we print out: 
+# - both the proof that the user has just created
+Then print the 'bbs proof'
+Then print the 'bbs shake proof'
+
+# - both the Issuer's public keys
+Then print the 'bbs public key'
+Then print the 'bbs shake public key'
+
+# Here we print the messages that the user wants to disclose
+Then print the 'bbs disclosed messages'
+# along with their indexes 
+Then print the 'bbs disclosed indexes'
+# and the presentation header
+Then print the 'bbs presentation header'

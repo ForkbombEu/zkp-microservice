@@ -1,0 +1,26 @@
+{
+    "type": "object",
+    "properties": {
+        "bbs_disclosed_indexes": {
+            "type": "array",
+            "items": {
+                "type": "integer"
+            }
+        },
+        "bbs_disclosed_messages": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "bbs_presentation_header": {
+            "type": "string"
+        },
+        "bbs_proof": {
+            "type": "string"
+        },
+        "bbs_shake_proof": {
+            "type": "string"
+        }
+    }
+}

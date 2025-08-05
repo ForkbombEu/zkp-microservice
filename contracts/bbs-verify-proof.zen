@@ -1,0 +1,22 @@
+Scenario bbs: verify a bbs proof
+
+# We load all the necessary objects one at a time, the order doesn't matter:
+Given I have a 'bbs public key' in 'The Authority'
+Given I have a 'bbs shake public key' in 'The Authority'
+
+Given I have a 'bbs proof' 
+Given I have a 'bbs shake proof'
+
+Given I have a 'base64' named 'bbs presentation header'
+
+# You can load the messages with any array type (hex array. base64 array)
+Given I have a 'number array' named 'bbs disclosed indexes'
+Given I have a 'string array' named 'bbs disclosed messages'
+
+# Again we verify the proof for both 'sha-256' and 'shake-256' algorithms:
+When I verify the bbs proof with public key 'bbs public key' presentation header 'bbs presentation header' disclosed messages 'bbs disclosed messages' and disclosed indexes 'bbs disclosed indexes'
+When I verify the bbs shake proof with public key 'bbs shake public key' presentation header 'bbs presentation header' disclosed messages 'bbs disclosed messages' and disclosed indexes 'bbs disclosed indexes'
+
+# If both the verifications are successful, the next print statement is executed,
+# else Zenroom will return an error 
+Then print the string  'bbs zkp verification successful'
